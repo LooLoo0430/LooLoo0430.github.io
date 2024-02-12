@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jungle's LuLu Space</title>
+    <meta name="language" content="zh-CN">
+    <meta name="title" content="Jungle's LuLu Space">
+    <meta name="github" content="https://github.com/sun0225SUN/Awesome-Love-Code">
+    <meta name="describe" content="It's not my personal website, but for my girlfriend --- Shen Lu.">
+    <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        .city {
+            width: 100%;
+            position: fixed;
+            bottom:
+                0px;
+            z-index: 100;
+        }
+
+        .city img {
+            width: 100%;
+        }
+
+        audio {
+            opacity: 0;
+        }
+    </style>
+    <title>
+        Set off fireworks for my girlfriend --- Shen Lu.
+    </title>
+    <link href="modal.css" rel="stylesheet" />
+</head>
+
+<body onselectstart="return false">
+    <div class="share_img"><img src="a8b.png" alt=""></div>
+
+    <div class="page_one">
+        <div class="content">
+            <div class="text_wrapper">
+                <img src="a8.png" alt="">
+                <div class="text">
+                    沈璐同学，我好喜欢你呀，你愿意做我女朋友吗？
+                </div>
+            </div>
+        </div>
+        <div class="btn-groups">
+            <div class="heart-btn">
+                <div id="yes" class="btn btn-a"><span>愿意</span></div>
+            </div>
+            <div id="no" class="btn btn-b"><span>不愿意</span></div>
+        </div>
+    </div>
+    <canvas id='cas' style="background-color:rgba(0,5,24,1)">
+        浏览器不支持canvas
+    </canvas>
+    <div class="city">
+        <img src="city.png" alt="" />
+    </div>
+    <img src="moon.png" alt="" id="moon" style="visibility: hidden;" />
+    <div style="display:none">
+        <div class="shape">
+            沈璐同学，我好喜欢你吖
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你是我生命的星辰
+        </div>
+
+        <div class="shape">
+            沈璐同学，你是我此间的童话
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你的微笑如同清晨的阳光
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你的眼神如同夜空的繁星
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你的笑容如我心灵的甘露
+        </div>
+        
+        <div class="shape">
+            沈璐同学，一看见你就让我心花怒放
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你是我心心念念的安宁
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你如同海岸线拥抱大海般温柔
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你如同春风拂过心田般恬适
+        </div>
+        
+        <div class="shape">
+            沈璐同学，我想和你共同编织美好
+        </div>
+        
+        <div class="shape">
+            沈璐同学，你是我人生中最美的邂逅
+        </div>
+        
+        <div class="shape">
+            沈璐同学，好想陪伴你走过人生每一个角落
+        </div>
+        
+        <div class="shape">
+            愿岁月静好，我们携手前行
+        </div>
+        
+        <div class="shape">
+            爱你，在这美好的时光里
+        </div>
+
+        <div class="shape">
+            庆幸，有你，璐璐宝贝
+        </div>
+        
+    </div>
+    <audio autoplay loop id="music">
+        <source src="music.mp3" />
+    </audio>
+    <iframe id="iframMusic" allow="autoplay" style="display:none" src="music.mp3"></iframe>
+    <script src="jquery.min.js"></script>
+    <script src="fire.js"></script>
+    <script src="talk.js"></script>
+</body>
+
+</html>
